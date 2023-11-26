@@ -1,0 +1,39 @@
+/* Add these styles to your existing VideoSearch.css file */
+
+.ui.container_video {
+    max-width: 950px; /* Adjust the maximum width as needed */
+  }
+  
+  .ui.grid_video {
+    margin-top: 20px; /* Adjust the top margin as needed */
+  }
+  
+  .ui.stackable.two.column.grid_video > .column {
+    padding: 0 10px; /* Adjust the padding between columns as needed */
+    
+  }
+  
+  .main_video {
+    width: 90%;
+    /* max-width: 120%; */
+    margin-left: -0px;
+
+  }
+  
+  .main_video iframe {
+    margin-top: 30px;
+    width: 110%;
+    height: 500px;
+  }
+  
+  .six.wide.column {
+    margin-left: 560px;
+    max-width: 100%;
+    width: 100%;
+    margin-top: -575px;
+    padding: 50px;
+  }
+
+  
+  /* You can adjust the styles further based on your specific design preferences */
+  

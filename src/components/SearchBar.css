@@ -1,0 +1,54 @@
+/* SearchBar.css */
+
+.search-bar {
+    margin-top: 20px;
+   
+  }
+  
+  .ui.form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .field {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-size: 3rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    
+  }
+  
+  .input-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  input {
+    width: calc(410% - 20px);
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: -320px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: -400px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  /* Optional: Style the input on focus */
+  input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+  
